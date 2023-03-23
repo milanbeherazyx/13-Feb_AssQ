@@ -1,0 +1,15 @@
+2023-03-23 11:29:34,160 root ERROR Exception Hierarchy: 
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5240/1843838054.py", line 2, in <module>
+    raise Exception('Custom Exception')
+Exception: Custom Exception
+2023-03-23 11:29:35,070 root ERROR Attempted to divide by zero
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5240/1681793178.py", line 2, in <module>
+    x = 1/0
+ZeroDivisionError: division by zero
+2023-03-23 11:29:36,700 root ERROR Key not found in dictionary
+2023-03-23 11:29:37,406 root ERROR Index out of range
+2023-03-23 11:29:38,467 root ERROR Unable to import module
+2023-03-23 11:29:39,135 root ERROR Module not found
+2023-03-23 11:29:40,316 root DEBUG {'Catch specific exceptions': 'Catching specific exceptions rather than just catching all exceptions helps to identify and resolve issues more quickly.', 'Keep the try-except block minimal': 'The try-except block should be as small as possible. The code inside the try block should only contain the statements that are likely to raise an exception.', 'Use finally block for cleanup': 'The finally block is executed regardless of whether an exception occurs or not. Use it to perform any necessary cleanup, such as closing files or database connections.', "Avoid using bare 'except'": "Avoid using bare 'except' statements, which catch all exceptions, as this can hide errors and make debugging difficult.", 'Reraise exceptions when necessary': "If you catch an exception but can't handle it, re-raise it using the 'raise' statement without any arguments to let it propagate up the call stack.", 'Use built-in exception types whenever possible': 'Python provides built-in exception types for common error scenarios, such as ValueError or TypeError. It is recommended to use them rather than creating your own custom exceptions.', 'Provide informative error messages': 'When an exception occurs, provide informative error messages that describe the problem clearly. This helps users and developers to quickly understand the issue and fix it.', 'Use logging to track exceptions': 'Use the logging module to track and record exceptions. This helps to identify patterns of errors and diagnose issues more easily.', 'Use context managers': "Use context managers, such as the 'with' statement, to handle resources such as files or network connections. Context managers automatically close resources when an exception occurs, ensuring that resources are released properly."}
